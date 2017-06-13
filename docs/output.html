@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="eWUDAPT">
+    <meta name="author" content="Jisk Attema">
+
+        <title>Output description · eWUDAPT</title>
+
+
+    <!-- Bootstrap core CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="http://bootswatch.com/united/bootstrap.min.css" type="text/css">
+
+    <link rel="stylesheet" href="/theme/css/main.css">
+
+    <link rel="stylesheet" href="/theme/css/solarized-light.css">
+
+
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <div class="container" id="wrap">
+      <nav id="navbar" class="navbar navbar-default" role="navigation">
+    <div class="container">
+
+      <!--navbar-header-->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="">eWUDAPT</a>
+      </div> <!--navbar-header-->
+
+      <!-- Search Box -->
+
+      <!--Menuitems, collapable-->
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right" id="menuitem-list">
+                <li >
+                  <a href="/introduction.html" >Home</a>
+                </li>
+
+              <li class="btn-group">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Models<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li >
+                    <a href="/output.html" >Output</a>
+                  </li>
+                  <li >
+                    <a href="/models/model01.html" >Model1</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="btn-group">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Usecase1<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li >
+                    <a href="/usecases/usecase01.html" >Description</a>
+                  </li>
+                  <li >
+                    <a href="/plots?usecase=01&stage=1" >Stage 1</a>
+                  </li>
+                  <li >
+                    <a href="/plots?usecase=01&stage=2" >Stage 2</a>
+                  </li>
+                  <li >
+                    <a href="/plots?usecase=01&stage=3" >Stage 3</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="btn-group">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Usecase2<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li >
+                    <a href="/usecases/usecase02.html" >Description</a>
+                  </li>
+                  <li >
+                    <a href="/plots?usecase=02&stage=1" >Stage 1</a>
+                  </li>
+                  <li >
+                    <a href="/plots?usecase=02&stage=2" >Stage 2</a>
+                  </li>
+                  <li >
+                    <a href="/plots?usecase=02&stage=3" >Stage 3</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="btn-group">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Archives<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li >
+                    <a href="/tags.html" >Tags</a>
+                  </li>
+                  <li >
+                    <a href="/categories.html" >Categories</a>
+                  </li>
+                  <li >
+                    <a href="/archives.html" >Chronological</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="btn-group">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li >
+                    <a href="mailto: my@email.to" >Email</a>
+                  </li>
+                  <li >
+                    <a href="http://url-to-github-page"     target="_blank"
+>Github</a>
+                  </li>
+                </ul>
+              </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+
+    </div> <!--container-->
+  </nav>
+
+
+    <div class="container">
+      <div class="col-md-2">
+      </div>
+
+      <div class="col-md-8">
+        <div class="row">
+              <div class="page-header">
+        <h1><a href="/output-description.html">Output description</a></h1>
+    </div>
+
+        </div>
+
+        <div class="row">
+
+    <span id="article_info">
+    <a class="label label-primary"
+      href="/category/output.html">Output</a>
+    <!--<span class="glyphicon glyphicon-calendar"></span>-->
+      <b> · </b>
+      <a href="/archives.html#Year2017">2017</a>-<a href="/archives.html#Year2017Month06">06</a>-<a href="/archives.html#Year2017Month06">12</a>
+
+    <!--<span class="glyphicon glyphicon-user"></span>-->
+      <b> · </b>
+    <a href="/author/Jisk Attema.html">Jisk Attema</a>
+  </span>
+
+  <hr/>
+
+  <div id="article_content">
+    <h1>Requested output</h1>
+<p>We ask for a NetCdf file which contains:</p>
+<ul>
+<li>
+<p>surface variables</p>
+</li>
+<li>
+<p>profiles of state variables at full levels</p>
+</li>
+<li>
+<p>profiles of fluxes on half levels </p>
+</li>
+<li>
+<p>profiles of soil parameters</p>
+</li>
+<li>
+<p>profiles of forcings as prescribed for this case at model levels</p>
+</li>
+<li>
+<p>profiles of the initial state as prescribed for this case</p>
+</li>
+</ul>
+<p>All data should be given as 10-min averages.</p>
+<h1>Filename</h1>
+<p>The filename should be composed as:
+<code>gabls_urban_scm_&lt;institute&gt;_&lt;model&gt;_&lt;ver&gt;.nc</code>
+where:</p>
+<ul>
+<li>
+<p><em>institute</em> name or acronym of your institute </p>
+</li>
+<li>
+<p><em>model</em> acronym of your model </p>
+</li>
+<li>
+<p><em>phase</em> phase of the experiment (0 or 1)</p>
+</li>
+<li>
+<p><em>stage</em> stage of the experiment (1-3)</p>
+</li>
+<li>
+<p><em>ver</em> two digit version number of your submission prepended with a <em>v</em> (v01, v10, v11, etc)</p>
+</li>
+</ul>
+<p>example:
+<code>gabls_urban_scm_wur_wrf_0_1_v03.nc</code></p>
+<h1>Global attributes</h1>
+<p>All relevant meta information should be added to the file as global attributes.
+This should include:</p>
+<h2>General</h2>
+<ul>
+<li>
+<p>reference to the model</p>
+</li>
+<li>
+<p>contact person.</p>
+</li>
+<li>
+<p>type of model where the SCM is derived from (climate model, mesoscale weather prediction model, regional model) ?</p>
+</li>
+<li>
+<p>time step</p>
+</li>
+</ul>
+<h2>Surface scheme properties</h2>
+<p>Describe the level op complexity of the urban canopy scheme.
+Is there a tile approach?</p>
+<h2>Turbulence scheme</h2>
+<p>Turbulence scheme  (e.g., K profile, TKE-l, ...)
+Formulation of eddy diffusivity K.
+For E-l and Louis-type scheme: give formulation length scale.
+For K-profile: how is this  profile determined ? (e.g., based on Richardson, Brunt-Vaisala frequency (N^2),  Parcel method, other.</p>
+<h2>Initial profiles</h2>
+<p>Include the initial profiles in the mean state section as the first time step at 0 seconds.
+Here we assume that the model is in eta coordinates and has a specific structure in the use of full levels and half level.
+If your model differs in this respect please adapt the output to fit with your model.</p>
+<h1>Sign convention</h1>
+<p>Surface energy fluxes (shf, lhf, g, qf) are positive when directed away from the surface.
+Surface radiation fluxes (qdw, qup, ldw, lup) are positive.</p>
+<h1>NetCdf dimensions and variables</h1>
+<p>Variables and dimensions should have the names as specified below (all lower case).
+Use the unlimited option for the "time" dimension or at least be sure that "time" is the slowest varying dimension in two dimensional variables.
+Each variable should have an attribute "units" with the unit prescribed as below.
+Each variable should have an attribute "long_name" which explains the meaning of the variable.
+The exact formulation is free, but could be taken from the description below.
+If a variable is not available for your model, use the attribute <code>_FillValue</code> to prescribe the numerical value that defines not available.
+All physical variables should be of type float.</p>
+<h2>Dimensions</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>time</td>
+<td>number of output times</td>
+</tr>
+<tr>
+<td>levf</td>
+<td>number of full levels</td>
+</tr>
+<tr>
+<td>levh</td>
+<td>number of half levels</td>
+</tr>
+<tr>
+<td>levs</td>
+<td>number of soil levels</td>
+</tr>
+</tbody>
+</table>
+<p>TODO: variables corresponding to the dimenension (netcdf requirement) and further grid description (eta levels)</p>
+<p bhalf>{time} seconds since 2006-07-01 12:00:00 [s]
+ {afull}
+ {bfull}
+ {ahalf}</p>
+<h2>Variables</h2>
+<h3 time>Time series output</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Long name</th>
+<th>Units</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ldw</td>
+<td>long wave downward radiation at surface</td>
+<td>W/m2</td>
+</tr>
+<tr>
+<td>lup</td>
+<td>long wave upward radiation at surface</td>
+<td>W/m2</td>
+</tr>
+<tr>
+<td>qdw</td>
+<td>short wave downward radiation at surface</td>
+<td>W/m2</td>
+</tr>
+<tr>
+<td>qup</td>
+<td>short wave upward radiation at surface</td>
+<td>W/m2</td>
+</tr>
+<tr>
+<td>tsk</td>
+<td>temperature skin layer</td>
+<td>W/m2</td>
+</tr>
+<tr>
+<td>g</td>
+<td>soil heat flux</td>
+<td>W/m2</td>
+</tr>
+<tr>
+<td>shf</td>
+<td>sensible heat flux</td>
+<td>W/m2</td>
+</tr>
+<tr>
+<td>lhf</td>
+<td>latent heat flux</td>
+<td>W/m2</td>
+</tr>
+<tr>
+<td>qf</td>
+<td>anthropogenic heat flux</td>
+<td>W/m2</td>
+</tr>
+<tr>
+<td>ustar</td>
+<td>friction velocity</td>
+<td>m/s</td>
+</tr>
+<tr>
+<td>hpbl</td>
+<td>boundary layer height</td>
+<td>m</td>
+</tr>
+<tr>
+<td>t2m</td>
+<td>2m temperature</td>
+<td>K</td>
+</tr>
+<tr>
+<td>q2m</td>
+<td>2m specific humidity</td>
+<td>kg/kg</td>
+</tr>
+<tr>
+<td>u10m</td>
+<td>10m u-component wind</td>
+<td>m/s</td>
+</tr>
+<tr>
+<td>v10m</td>
+<td>10m v-component wind</td>
+<td>m/s</td>
+</tr>
+<tr>
+<td>cc</td>
+<td>cloud cover fraction</td>
+<td>0 1</td>
+</tr>
+</tbody>
+</table>
+<h3 levf>Mean state {time}</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Long name</th>
+<th>Units</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>zf</td>
+<td>height of full level</td>
+<td>m</td>
+</tr>
+<tr>
+<td>pf</td>
+<td>pressure at full level</td>
+<td>Pa</td>
+</tr>
+<tr>
+<td>t</td>
+<td>temperature</td>
+<td>K</td>
+</tr>
+<tr>
+<td>th</td>
+<td>potential temperature</td>
+<td>K</td>
+</tr>
+<tr>
+<td>q</td>
+<td>specific humidity</td>
+<td>kg/kg</td>
+</tr>
+<tr>
+<td>u</td>
+<td>zonal component wind</td>
+<td>m/s</td>
+</tr>
+<tr>
+<td>v</td>
+<td>meridional component wind</td>
+<td>m/s</td>
+</tr>
+</tbody>
+</table>
+<h3>Prescribed forcings {time} ({levf} or {levh})</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Long name</th>
+<th>Units</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ugeo</td>
+<td>u-component geostrophic wind</td>
+<td>m/s</td>
+</tr>
+<tr>
+<td>vgeo</td>
+<td>v-component geostrophic wind</td>
+<td>m/s</td>
+</tr>
+<tr>
+<td>dudt_ls</td>
+<td>u-component momentum advection</td>
+<td>m/s/s</td>
+</tr>
+<tr>
+<td>dvdt_ls</td>
+<td>v-component momentum advection</td>
+<td>m/s/s</td>
+</tr>
+<tr>
+<td>dtdt_ls</td>
+<td>temperature advection</td>
+<td>K/s</td>
+</tr>
+<tr>
+<td>dqdt_ls</td>
+<td>moisture advection</td>
+<td>kg/kg/s</td>
+</tr>
+<tr>
+<td>ome</td>
+<td>vertical movement</td>
+<td>Pa/s</td>
+</tr>
+</tbody>
+</table>
+<h3 levh>Fluxes {time}</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Long name</th>
+<th>Units</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>zh</td>
+<td>height of half level</td>
+<td>m</td>
+</tr>
+<tr>
+<td>ph</td>
+<td>pressure at half level</td>
+<td>Pa</td>
+</tr>
+<tr>
+<td>wt</td>
+<td>vertical temperature flux</td>
+<td>Km/s</td>
+</tr>
+<tr>
+<td>wq</td>
+<td>vertical moisture flux</td>
+<td>kg/kg m/s</td>
+</tr>
+<tr>
+<td>uw</td>
+<td>vertical flux u-component momentum</td>
+<td>m2/s2</td>
+</tr>
+<tr>
+<td>vw</td>
+<td>vertical flux v-component momentum</td>
+<td>m2/s2</td>
+</tr>
+<tr>
+<td>Km</td>
+<td>eddy diffusivity momentum</td>
+<td>m2/s</td>
+</tr>
+<tr>
+<td>Kh</td>
+<td>eddy diffusivity heat</td>
+<td>m2/s</td>
+</tr>
+<tr>
+<td>TKE</td>
+<td>turbulent kinetic energy</td>
+<td>m^2/s^2</td>
+</tr>
+<tr>
+<td>shear</td>
+<td>shear production</td>
+<td>m2/s3</td>
+</tr>
+<tr>
+<td>buoy</td>
+<td>buoyancy production</td>
+<td>m2/s3</td>
+</tr>
+<tr>
+<td>trans</td>
+<td>total transport</td>
+<td>m2/s3</td>
+</tr>
+<tr>
+<td>dissi</td>
+<td>dissipation</td>
+<td>m2/s3</td>
+</tr>
+</tbody>
+</table>
+<h3 levs>Soil variables {time}</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Long name</th>
+<th>Units</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>zs</td>
+<td>height of soil level</td>
+<td>m</td>
+</tr>
+<tr>
+<td>ts</td>
+<td>soil temperature</td>
+<td>K</td>
+</tr>
+<tr>
+<td>ths</td>
+<td>soil water content</td>
+<td>m3/m3</td>
+</tr>
+</tbody>
+</table>
+  </div>
+
+  <hr/>
+
+      <ul class="pager">
+        <li class="previous">
+          <a href="/plots.html">
+          &laquo; Newer</a>
+        </li>
+        <li class="next">
+          <a href="/usecases/usecase01.html">
+          Older &raquo;</a>
+        </li>
+      </ul>
+
+
+        </div>
+
+        <div class="row">
+        </div>
+
+      </div>
+
+      <div class="col-md-2">
+      </div>
+    </div>
+
+
+  </div>
+
+    <nav id="footer" class="navbar navbar-default">
+    <div class="container">
+        <p id="footer-text" class="navbar-text text-center">
+          <span id="engine">
+            Compiled using
+            <a href="http://docs.getpelican.com">Pelican</a>
+          </span>
+          <span id="theme">
+            with theme
+            <a href="http://github.com/yuex/pelican-chameleon">Chameleon</a>
+          </span>
+          <span id="bootstrap">
+            on top of
+            <a href="http://getbootstrap.com/">Bootstrap</a>
+          </span>
+        </p>
+      </div>
+    </div>
+  </nav>
+
+
+</body>
+</html>
