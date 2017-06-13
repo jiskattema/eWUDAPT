@@ -43,15 +43,15 @@ MENUITEMS = [
         ]),
     ('Usecase1', [
         ('Description', '/usecase01'),
-        ('Stage 1', '/usecase01/stage1'),
-        ('Stage 2', '/usecase01/stage2'),
-        ('Stage 3', '/usecase01/stage3'),
+        ('Stage 1', '/plots?usecase=01&stage=1'),
+        ('Stage 2', '/plots?usecase=01&stage=2'),
+        ('Stage 3', '/plots?usecase=01&stage=3'),
         ]),
     ('Usecase2', [
         ('Description', '/usecase02'),
-        ('Stage 1', '/usecase02/stage1'),
-        ('Stage 2', '/usecase02/stage2'),
-        ('Stage 3', '/usecase02/stage3'),
+        ('Stage 1', '/plots?usecase=02&stage=1'),
+        ('Stage 2', '/plots?usecase=02&stage=2'),
+        ('Stage 3', '/plots?usecase=02&stage=3'),
         ]),
     ('Archives', [
         ('Tags', '/tags.html'),

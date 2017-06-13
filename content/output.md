@@ -110,61 +110,71 @@ TODO: variables corresponding to the dimenension (netcdf requirement) and furthe
 
 ### Time series output {time}
 
- {ldw} long wave downward radiation at surface [W/m2]
- {lup} long wave upward radiation at surface [W/m2]
- {qdw} short wave downward radiation at surface [W/m2]
- {qup} short wave upward radiation at surface [W/m2]
- {tsk} temperature skin layer [W/m2]
- {g} soil heat flux [W/m2]
- {shf} sensible heat flux [W/m2]
- {lhf} latent heat flux [W/m2]
- {qf} anthropogenic heat flux [W/m2]
- {ustar} friction velocity [m/s]
- {hpbl} boundary layer height [m]
- {t2m} 2m temperature [K]
- {q2m} 2m specific humidity [kg/kg]
- {u10m} 10m u-component wind [m/s]
- {v10m} 10m v-component wind [m/s]
- {cc} cloud cover fraction [0 1]
+|Name |Long name                               |Units|
+|-----|----------------------------------------|-----|
+|ldw  |long wave downward radiation at surface |W/m2|
+|lup  |long wave upward radiation at surface   |W/m2|
+|qdw  |short wave downward radiation at surface|W/m2|
+|qup  |short wave upward radiation at surface  |W/m2|
+|tsk  |temperature skin layer                  |W/m2|
+|g    |soil heat flux                          |W/m2|
+|shf  |sensible heat flux                      |W/m2|
+|lhf  |latent heat flux                        |W/m2|
+|qf   |anthropogenic heat flux                 |W/m2|
+|ustar|friction velocity                       |m/s|
+|hpbl |boundary layer height                   |m|
+|t2m  |2m temperature                          |K|
+|q2m  |2m specific humidity                    |kg/kg|
+|u10m |10m u-component wind                    |m/s|
+|v10m |10m v-component wind                    |m/s|
+|cc   |cloud cover fraction                    |0 1|
 
 ### Mean state {time} {levf}
 
- {zf} height of full level [m]
- {pf} pressure at full level [Pa]
- {t} temperature [K]
- {th} potential temperature [K]
- {q} specific humidity [kg/kg]
- {u} zonal component wind [m/s]
- {v} meridional component wind [m/s]
+|Name|Long name|Units|
+|----|---------|-----|
+|zf|height of full level     |m|
+|pf|pressure at full level   |Pa|
+|t |temperature              |K|
+|th|potential temperature    |K|
+|q |specific humidity        |kg/kg|
+|u |zonal component wind     |m/s|
+|v |meridional component wind|m/s|
 
 ### Prescribed forcings {time} ({levf} or {levh})
 
- {ugeo} u-component geostrophic wind [m/s]
- {vgeo} v-component geostrophic wind [m/s] 
- {dudt_ls} u-component momentum advection [m/s/s]
- {dvdt_ls} v-component momentum advection [m/s/s]
- {dtdt_ls} temperature advection [K/s]
- {dqdt_ls} moisture advection [kg/kg/s]
- {ome} vertical movement [Pa/s]
+|Name|Long name|Units|
+|----|---------|-----|
+|ugeo   |u-component geostrophic wind   |m/s|
+|vgeo   |v-component geostrophic wind   |m/s| 
+|dudt_ls|u-component momentum advection |m/s/s|
+|dvdt_ls|v-component momentum advection |m/s/s|
+|dtdt_ls|temperature advection          |K/s|
+|dqdt_ls|moisture advection             |kg/kg/s|
+|ome    | vertical movement             |Pa/s|
 
 ### Fluxes {time} {levh}
 
- {zh} height of half level [m]
- {ph} pressure at half level [Pa]
- {wt} vertical temperature flux [Km/s]
- {wq} vertical moisture flux [kg/kg m/s]
- {uw} vertical flux u-component momentum [m2/s2]
- {vw} vertical flux v-component momentum [m2/s2]
- {Km} eddy diffusivity momentum [m2/s]
- {Kh} eddy diffusivity heat [m2/s]
- {TKE} turbulent kinetic energy [m^2/s^2]
- {shear} shear production [m2/s3]
- {buoy} buoyancy production [m2/s3]
- {trans} total transport [m2/s3]
- {dissi} dissipation [m2/s3]
+|Name|Long name|Units|
+|----|---------|-----|
+|zh|    height of half level               |m|
+|ph|    pressure at half level             |Pa|
+|wt|    vertical temperature flux          |Km/s|
+|wq|    vertical moisture flux             |kg/kg m/s|
+|uw|    vertical flux u-component momentum |m2/s2|
+|vw|    vertical flux v-component momentum |m2/s2|
+|Km|    eddy diffusivity momentum          |m2/s|
+|Kh|    eddy diffusivity heat              |m2/s|
+|TKE|   turbulent kinetic energy           |m^2/s^2|
+|shear| shear production                   |m2/s3|
+|buoy|  buoyancy production                |m2/s3|
+|trans| total transport                    |m2/s3|
+|dissi| dissipation                        |m2/s3|
 
 ### Soil variables {time} {levs}
 
- {zs} height of soil level [m]
- {ts} soil temperature [K]
- {ths} soil water content [m3/m3]
+|Name|Long name|Units|
+|----|---------|-----|
+|zs|  height of soil level |m|
+|ts|  soil temperature     |K|
+|ths| soil water content   |m3/m3|
