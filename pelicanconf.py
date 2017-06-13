@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Jisk Attema'
 SITENAME = u'eWUDAPT'
-SITEURL = 'eWUDAPT' # for hosting on gh-pages
+SITEURL = 'https://jiskattema.github.io/eWUDAPT'
 
 PATH = 'content'
 
