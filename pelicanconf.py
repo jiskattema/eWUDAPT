@@ -70,4 +70,4 @@ DEFAULT_PAGINATION = 10
 STATIC_PATHS = ['images', 'docs']
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = False
