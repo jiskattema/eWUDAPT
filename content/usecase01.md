@@ -1,4 +1,4 @@
-Title: Usecase 1
+Title: Usecase 1 description
 Date: 2017-06-12 10:20
 Category: Usecases
 url: usecase01/

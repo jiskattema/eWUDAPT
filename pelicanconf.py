@@ -36,9 +36,23 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 MENUITEMS = [
-    ('Home', '/'),
-    ('Usecase1', '/usecase01'),
-    ('Usecase2', '/usecase02'),
+    ('Home', '/introduction.html'),
+    ('Models', [
+        ('Output', '/output.html'),
+        ('Model1', '/models/model01.html'),
+        ]),
+    ('Usecase1', [
+        ('Description', '/usecase01'),
+        ('Stage 1', '/usecase01/stage1'),
+        ('Stage 2', '/usecase01/stage2'),
+        ('Stage 3', '/usecase01/stage3'),
+        ]),
+    ('Usecase2', [
+        ('Description', '/usecase02'),
+        ('Stage 1', '/usecase02/stage1'),
+        ('Stage 2', '/usecase02/stage2'),
+        ('Stage 3', '/usecase02/stage3'),
+        ]),
     ('Archives', [
         ('Tags', '/tags.html'),
         ('Categories', '/categories.html'),
