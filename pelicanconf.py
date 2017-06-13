@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Jisk Attema'
 SITENAME = u'eWUDAPT'
-SITEURL = ''
+SITEURL = 'eWUDAPT' # for hosting on gh-pages
 
 PATH = 'content'
 
@@ -16,7 +16,7 @@ DEFAULT_LANG = u'en'
 THEME = './theme'
 
 # see https://bootswatch.com/united/
-BS3_THEME = 'http://bootswatch.com/united/bootstrap.min.css'
+BS3_THEME = 'https://bootswatch.com/united/bootstrap.min.css'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -29,7 +29,7 @@ AUTHOR_FEED_RSS = None
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+        )
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
