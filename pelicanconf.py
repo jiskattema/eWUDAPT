@@ -42,13 +42,13 @@ MENUITEMS = [
         ('Model1', '/models/model01.html'),
         ]),
     ('Usecase1', [
-        ('Description', '/usecase01'),
+        ('Description', '/usecases/usecase01.html'),
         ('Stage 1', '/plots?usecase=01&stage=1'),
         ('Stage 2', '/plots?usecase=01&stage=2'),
         ('Stage 3', '/plots?usecase=01&stage=3'),
         ]),
     ('Usecase2', [
-        ('Description', '/usecase02'),
+        ('Description', '/usecases/usecase02.html'),
         ('Stage 1', '/plots?usecase=02&stage=1'),
         ('Stage 2', '/plots?usecase=02&stage=2'),
         ('Stage 3', '/plots?usecase=02&stage=3'),
@@ -65,6 +65,9 @@ MENUITEMS = [
     ]
 
 DEFAULT_PAGINATION = 10
+
+# these directories are copied directly to the output dir
+STATIC_PATHS = ['images', 'docs']
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
